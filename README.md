@@ -4,6 +4,7 @@ This is a social network API that allows users to share their thoughts, react to
 
 ## Table of Contents
 
+- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
@@ -11,6 +12,18 @@ This is a social network API that allows users to share their thoughts, react to
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+## Features
+
+1. **User Management**: Create, update, and delete user accounts, including managing friend lists.
+
+2. **Thought Sharing**: Allow users to post, delete, and view thoughts, including those from friends.
+
+3. **Reactions**: Implement reactions to thoughts, such as likes, to engage users.
+
+4. **Friend Connections**: Enable users to add and remove friends, and see friend updates.
+
+5. **Data Validation**: Use Mongoose schema validation for secure and consistent data storage.
 
 ## Installation
 
