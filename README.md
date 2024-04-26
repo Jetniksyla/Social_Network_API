@@ -70,7 +70,7 @@ You can use tools like Insomnia or Postman to interact with the API endpoints. M
 
 ## Walkthrough Video
 
-[Watch the walkthrough video](https://www.youtube.com/watch?v=your-video-id)
+[Watch the walkthrough video](https://www.loom.com/share/38c9f77ca05e43ad9bbe12c94d92160b?sid=125a8e5e-7370-4bff-b6cb-aedde9171b6c)
 
 ## Contributing
 

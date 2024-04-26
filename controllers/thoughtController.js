@@ -124,7 +124,7 @@ const thoughtController = {
       const updatedThought = await Thought.findOneAndUpdate(
         { _id: req.params.thoughtId },
         {
-          $addToSet: { reactions: req.params.reactionId },
+          $addToSet: { reactions: req.body },
           $inc: { reactionCount: 1 },
         },
         { runValidators: true, new: true }
@@ -137,7 +137,7 @@ const thoughtController = {
           message: "Reaction added successfully",
           thoughts: updatedThought,
         });
-        console.log("Reaction count:", updatedThought.reactionCount);
+        // console.log("Reaction count:", updatedThought.reactionCount);
       }
     } catch (err) {
       console.error(err);
